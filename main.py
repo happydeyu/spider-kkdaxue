@@ -23,9 +23,9 @@ def insert(sql, cursor, db):
         db.rollback()
 def task():
       
-    db = pymysql.connect(host='8.142.78.132',
+    db = pymysql.connect(host='',
                         user='root',
-                        password='mysql57',
+                        password='',
                         port=3306,
                         database='suggest_data')
     cursor = db.cursor() 
